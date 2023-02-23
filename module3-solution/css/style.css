@@ -1,0 +1,19 @@
+html {
+    scroll-behavior: smooth;
+}
+.custom-w {
+    width: 30%;
+}
+@media (max-width: 768px) {
+    .custom-w {
+        width: 45%;
+    }
+    .custom-w:nth-of-type(3) {
+        width: 95%;
+    }
+}
+@media (max-width: 576px) {
+    .custom-w {
+        width: 95%;
+    }
+}
